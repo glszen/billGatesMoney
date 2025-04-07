@@ -1,0 +1,78 @@
+.header{
+   background-color: white;
+   width: 50%;
+   height: 30vh;
+}
+
+.billImage{
+    border-radius: 100px;
+    width: 7.8vw;
+}
+
+.txtb{
+color: #333333;
+font-weight: bold;
+font-size:xx-large;
+}
+
+.header2{
+    background-color: #29C87C;
+    width: 50%;
+    height: 9vh;
+ }
+
+ 
+.txtb2{
+    color: white;
+    font-weight: bold;
+    font-size:xx-large;
+    }
+    
+    .cardStyle{
+        width: 19.2rem;
+        border-radius: 0;
+        border-color: white;
+    }
+
+    .cardImage{
+        width: 10vw;
+        height: 16vh;
+    }
+
+    .cardText{
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .moneyText{
+        font-size: 23px;
+        color: #29C87C;
+        font-weight: normal;
+    }
+
+    .inputSize{
+        width: 5rem;
+        height: 4vh;
+        border-color: white;
+        border-radius: 5px;
+    }
+
+    .buttonSize{
+        width: 5rem;
+        background-color: #F1F2F6;
+        color: #333333;
+        font-weight: bold;
+        border-color: #F1F2F6;
+    }
+
+    hr.new4 {
+        border: 1px solid black;
+      }
+
+      .moneyNavbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%; 
+      
+    }
