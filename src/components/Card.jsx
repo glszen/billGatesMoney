@@ -106,7 +106,6 @@ console.log(products);
                   />
           </div>
 
-          
         <div className='col-4'>
         <button onClick={()=> increaseQuantity(product.id)} type="button" class="btn buttonSize" style={{backgroundColor: totalMoney >= product.price ? `#26C582` : '', color: totalMoney >= product.price ? `white` : `#333333`}}>Buy</button>
         </div>
@@ -117,7 +116,7 @@ console.log(products);
       ))}
        
         </div>
-        <Receipt products={products} />
+       {products.some(products => products.quantity >= 1) && <Receipt products={products}></Receipt>}
         </div>
         
 

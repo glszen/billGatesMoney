@@ -19,18 +19,17 @@ function Receipt({products}){
         {products.map((product) => 
             product.quantity > 0 ? (
                 <div key={product.id} className="receipt-item d-flex justify-content-between">
-                    <span><span>{`${(product.name)} - `}</span>{`$${(product.price * product.quantity).toLocaleString()}`}</span>
-
+                    <span style={{color:`#29C87C`, fontSize:`17px`,fontWeight:`bold`}}><span className='me-4 ' style={{color:`black`, fontSize:`17px`,fontWeight:`normal`}}>{`${(product.name)+ " x " +(product.quantity)} `}</span>{`$${(product.price * product.quantity).toLocaleString()}`}</span>
                 </div> 
             ) : null
         )}
 
 <div className='total d-flex justify-content-between mt-3'>
     
-        <span><hr className='new4' /><strong>Total:</strong></span>
+        <span style={{color:`black`, fontSize:`20px`}}><hr  className='new4' /><strong>Total:</strong></span>
         
         
-        <span><hr className='new4' /><strong>{`$${total.toLocaleString()}`}</strong></span>
+        <span style={{color:`#29C87C`, fontSize:`20px`}}><hr  className='new4' /><strong>{`$${total.toLocaleString()}`}</strong></span>
 
     </div>
     </div>
