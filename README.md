@@ -4,6 +4,8 @@ This project is a simple React-based web application that simulates a product pu
 
 ## LIVE
 
+https://billgatesmoneyapp.netlify.app/
+
 ## Features
 
 - Displays a list of products with images, names, and prices.
