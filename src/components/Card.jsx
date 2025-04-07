@@ -81,7 +81,7 @@ console.log(products);
           <div class="card-body">
            <div className='col'>
           <div className='row justify-content-center'>
-        <img className='cardImage' src={`/src/images/${product.name.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase()}.jpg`} alt={product.name} />
+        <img className='cardImage' src={`/images/${product.name.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase()}.jpg`} alt={product.name} />
           </div>
           <div className='row justify-content-center'>
           <span className='text-center cardText'>{product.name}</span>
